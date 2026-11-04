@@ -1,0 +1,49 @@
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+WARNING:robosuite_logs:No private macro file found!
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+WARNING:robosuite_logs:It is recommended to use a private macro file
+[robosuite WARNING] To setup, run: python /home/python/miniconda3/envs/lerobot/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+WARNING:robosuite_logs:To setup, run: python /home/python/miniconda3/envs/lerobot/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+[info] Applying task order index 0 (permutation: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]) for benchmark 'libero_spatial' (10 tasks).
+Loading  HuggingFaceTB/SmolVLM2-500M-Video-Instruct weights ...
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+policy device: cuda:0 NVIDIA GeForce RTX 4060
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[DEBUG LiberoProcessorStep] Before flip: key=observation.images.image, shape=torch.Size([1, 3, 256, 256]), mean=0.4662
+[DEBUG LiberoProcessorStep] After flip: shape=torch.Size([1, 3, 256, 256]), mean=0.4662
+[libero_spatial t8 ep10] success=False steps=280 11.3s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep11] success=False steps=280 10.5s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep12] success=False steps=280 10.3s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep13] success=False steps=280 10.8s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep14] success=False steps=280 10.7s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep15] success=True steps=94 7.2s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep16] success=False steps=280 10.6s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep17] success=False steps=280 11.0s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep18] success=False steps=280 10.5s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep19] success=False steps=280 10.6s
+== libero_spatial task 8: 0.10  | pick up the black bowl next to the plate and place it on the plate

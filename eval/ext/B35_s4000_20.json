@@ -1,0 +1,35 @@
+{
+ "suite": "libero_spatial",
+ "edit": "/media/python/Seagate/research/smolvla-weight-space-programming/edits/edit_B35",
+ "results": {
+  "8": {
+   "task": "pick up the black bowl next to the plate and place it on the plate",
+   "rate": 0.5,
+   "n": 10,
+   "successes": [
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    true,
+    false,
+    false,
+    true
+   ],
+   "steps": [
+    92,
+    280,
+    280,
+    98,
+    94,
+    280,
+    95,
+    280,
+    280,
+    212
+   ]
+  }
+ }
+}

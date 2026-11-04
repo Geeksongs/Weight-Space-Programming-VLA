@@ -1,0 +1,13 @@
+{
+ "tensors": {
+  "model.action_out_proj.bias": {
+   "shape": [
+    32
+   ],
+   "changed": 1,
+   "numel": 32
+  }
+ },
+ "total_changed": 1,
+ "sha256_npz": "178b72dc1133d97b2ac5b360347b7bbd38b4256b9d287586d6f731831d2f7552"
+}

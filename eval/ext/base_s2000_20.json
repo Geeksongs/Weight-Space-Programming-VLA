@@ -1,0 +1,35 @@
+{
+ "suite": "libero_spatial",
+ "edit": null,
+ "results": {
+  "8": {
+   "task": "pick up the black bowl next to the plate and place it on the plate",
+   "rate": 0.5,
+   "n": 10,
+   "successes": [
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    false,
+    false,
+    true,
+    true
+   ],
+   "steps": [
+    280,
+    97,
+    92,
+    280,
+    280,
+    103,
+    280,
+    280,
+    96,
+    94
+   ]
+  }
+ }
+}

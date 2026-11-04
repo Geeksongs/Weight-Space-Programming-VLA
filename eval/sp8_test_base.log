@@ -1,0 +1,139 @@
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+WARNING:robosuite_logs:No private macro file found!
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+WARNING:robosuite_logs:It is recommended to use a private macro file
+[robosuite WARNING] To setup, run: python /home/python/miniconda3/envs/lerobot/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+WARNING:robosuite_logs:To setup, run: python /home/python/miniconda3/envs/lerobot/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+[info] Applying task order index 0 (permutation: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]) for benchmark 'libero_spatial' (10 tasks).
+Loading  HuggingFaceTB/SmolVLM2-500M-Video-Instruct weights ...
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+policy device: cuda:0 NVIDIA GeForce RTX 4060
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[DEBUG LiberoProcessorStep] Before flip: key=observation.images.image, shape=torch.Size([1, 3, 256, 256]), mean=0.4666
+[DEBUG LiberoProcessorStep] After flip: shape=torch.Size([1, 3, 256, 256]), mean=0.4666
+[libero_spatial t8 ep10] success=False steps=280 12.7s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep11] success=False steps=280 11.5s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep12] success=True steps=93 7.9s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep13] success=True steps=92 8.1s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep14] success=True steps=91 7.5s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep15] success=False steps=280 10.7s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep16] success=True steps=98 7.7s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep17] success=True steps=96 7.7s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep18] success=False steps=280 10.8s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep19] success=False steps=280 10.7s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep20] success=False steps=280 10.9s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep21] success=False steps=280 11.7s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep22] success=True steps=94 7.5s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep23] success=False steps=280 11.5s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep24] success=True steps=96 7.6s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep25] success=False steps=280 11.3s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep26] success=True steps=98 7.7s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep27] success=False steps=280 11.5s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep28] success=True steps=96 7.7s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep29] success=False steps=280 11.2s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep30] success=False steps=280 11.1s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep31] success=False steps=280 11.4s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep32] success=False steps=280 11.6s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep33] success=True steps=92 7.3s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep34] success=True steps=92 7.1s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep35] success=False steps=280 11.2s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep36] success=False steps=280 10.7s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep37] success=True steps=94 7.4s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep38] success=False steps=280 10.9s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep39] success=True steps=94 7.4s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep40] success=False steps=280 11.2s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep41] success=True steps=277 12.5s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep42] success=False steps=280 11.6s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep43] success=False steps=280 11.5s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep44] success=False steps=280 12.5s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep45] success=False steps=280 12.1s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep46] success=True steps=97 6.8s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep47] success=False steps=280 9.7s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep48] success=True steps=98 6.6s
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[Warning]: datasets path /media/python/Seagate/research/libero/libero/libero/../datasets does not exist!
+[libero_spatial t8 ep49] success=True steps=93 6.5s
+== libero_spatial task 8: 0.42  | pick up the black bowl next to the plate and place it on the plate
